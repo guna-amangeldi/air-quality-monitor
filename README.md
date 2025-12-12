@@ -1,4 +1,4 @@
-# Air Quality ML Monitor (lazy edition) 🌍
+# Air Quality ML Monitor (lazy edition)
 
 A small Python tool that fetches air-quality data for a city, stores it as a growing dataset, and trains a simple ML baseline to forecast the next AQI value.
 
