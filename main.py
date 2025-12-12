@@ -17,7 +17,7 @@ CITIES = {
 
 def fetch_air_quality(lat: float, lon: float, timezone: str = "auto") -> pd.DataFrame:
     """
-    Fetch hourly air-quality data from Open-Meteo Air Quality API.
+    Take hourly air-quality data from Open-Meteo Air Quality API.
     Returns a DataFrame with a 'time' column and pollutant metrics.
     """
     url = "https://air-quality-api.open-meteo.com/v1/air-quality"
